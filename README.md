@@ -1,25 +1,10 @@
-# 360 – Vollrotationsmodul · iki1uc
+# 360 · Vollrotation · ROT-Ebene
 
-## Zweck
-360 ist das globale Rotationsmodul der IKI‑Engine.
-Es rotiert alle Achsen, Dimensionen und Module im vollständigen 360°-Raum.
+**Modul 360** ist die zentrale Rotationsinstanz des Systems **6E** innerhalb des Repositories **iki1uc**.
 
-## Struktur
-- NAME: 360
-- DIM: ROT
-- DNA: Α64
-- Achsenmatrix: 6×6
-- Felder pro Achse: 64
-- Rotation: 360°
+Es rotiert Achsen, Dimensionen und Module im vollständigen 360°‑Raum und bildet die ROT‑Ebene des NC²‑Systems.
 
-## Rolle
-360 verbindet AXI, 6d, ANKER und API zu einem vollständigen Rotationssystem.
+---
 
-## Router
-- AXI‑ATOR: aktiv
-- TriAxiom: aktiv
-- RESPO‑AXI‑LINK.NET: verbunden
+## Identität
 
-## Status
-STATE = STABIL  
-READY = 100%
